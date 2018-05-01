@@ -14,6 +14,8 @@ public class TokenValidator {
 
 	//it will be dinamic for each user storaged at the DB and redis.
     private String secret = "secret-aus2018";
+    
+    //add this line of comment to check git logs
 
     public UserToken validate(String token) {
 
